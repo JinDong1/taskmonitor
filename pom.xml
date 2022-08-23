@@ -57,10 +57,18 @@
     </dependencies>
 
 
+    <repositories>
+        <repository>
+            <id>taskmonitor</id>
+            <name>taskmonitor</name>
+            <!-- <url>https://raw.github.com/fengyunhe/fengyunhe-wechat-mp/master/</url>-->
+            <url>https://github.com/JinDong1/taskmonitor/master</url>
+        </repository>
+    </repositories>
     <!-- SCM信息 -> git在github上托管 -->
     <scm>
         <connection>scm:git:https://github.com/JinDong1/taskmonitor.git</connection>
-        <url>https://github.com/JinDong1/taskmonitor/tree/master</url>
+        <url>https://github.com/JinDong1/taskmonitor/master</url>
     </scm>
 
     <developers>
