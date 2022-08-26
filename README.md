@@ -7,8 +7,8 @@ SpringBoot的定时任务的加强工具，实现定时任务动态管理,完全
 ```xml
 
 <dependency>
-    <groupId>com.github.tsl</groupId>
-    <artifactId>spring-boot-starter-tsl</artifactId>
+    <groupId>com.github.JinDong1</groupId>
+    <artifactId>spring-boot-taskmonitor</artifactId>
     <version>1.0.0</version>
 </dependency>
 
