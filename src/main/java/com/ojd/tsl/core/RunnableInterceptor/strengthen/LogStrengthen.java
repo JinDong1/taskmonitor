@@ -12,6 +12,7 @@ import java.lang.reflect.Method;
 import java.util.Date;
 
 @SuperScheduledInteriorOrder(-1)
+//@Component
 public class LogStrengthen implements BaseStrengthen {
     private ScheduledLog scheduledLog;
 

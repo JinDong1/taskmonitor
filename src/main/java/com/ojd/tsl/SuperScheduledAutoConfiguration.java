@@ -14,6 +14,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 
@@ -21,6 +22,7 @@ import java.io.IOException;
 import java.net.InetAddress;
 
 @Configuration
+@ComponentScan("com.ojd.tsl")
 @EnableConfigurationProperties(value = {ThreadPoolTaskSchedulerProperties.class, PlugInProperties.class, ZooKeeperProperties.class})
 public class SuperScheduledAutoConfiguration {
     @Autowired

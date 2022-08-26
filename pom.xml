@@ -71,13 +71,17 @@
         <url>https://github.com/JinDong1/taskmonitor/master</url>
     </scm>
 
-    <developers>
-        <developer>
-            <name>OuJinDong</name>
-            <email>541970950@qq.com</email>
-            <url>https://github.com/JinDong1</url>
-        </developer>
-    </developers>
+
+    <distributionManagement>
+        <repository>
+            <id>rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/139633-release-v0nvqD/</url>
+        </repository>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/139633-snapshot-BRicRY/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 
 </project>
